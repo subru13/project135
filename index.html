@@ -1,0 +1,32 @@
+<html>
+    <head>
+    <title>AI Object Finder </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&family=Water+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body background="download.png">
+      <center>
+    <h2 class="btn btn-info heading">Object Detection</h1>
+    <h1> Use the input box below to enter the object found </h2>
+    <p> Object Name: </p>
+    <input type="text">
+    <button class="btn btn-success"> Start </button> 
+    <br><br>
+    <span>
+        <button class="btn btn-danger"> Status: Object Detecting </button>
+        <button class="btn btn-primary"> Cell phone found </button>
+    </span>
+    <div id="canvas"></div>
+</center>
+  </body>
+  </html>
